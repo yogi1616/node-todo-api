@@ -1,7 +1,6 @@
 {
   "name": "node-todo-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -16,7 +15,7 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "mongodb": "^2.2.5",
+    "mongodb": "^2.2.36",
     "mongoose": "^4.5.9"
   },
   "devDependencies": {
@@ -24,5 +23,15 @@
     "mocha": "^3.0.2",
     "nodemon": "^1.10.2",
     "supertest": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogi1616/node-todo-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/yogi1616/node-todo-api/issues"
+  },
+  "homepage": "https://github.com/yogi1616/node-todo-api#readme",
+  "description": ""
 }
